@@ -9,5 +9,6 @@ python stars.py
 ```
 python letters.py
 ```
+![output image](https://github.com/LunaticMaestro/InternshipsAssignment/blob/main/CipherSchools/.readme/task_1_2.PNG)
 
 # Task 2

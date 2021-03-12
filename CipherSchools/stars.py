@@ -6,7 +6,7 @@
 '''
 import sys
 
-def stars(lines):
+def triangle_stars(lines=5 ):
 	'''
 	lines : int : count of lines to print the pattern
 	'''
@@ -27,7 +27,7 @@ if __name__ == "__main__":
 	# lets add cmd line arguments
 	if len(sys.argv) > 1:
 		lines = int(sys.argv[1]) # change string to int
-		stars(lines)	# to print variale number of lines using cmdline
+		triangle_stars(lines)	# to print variale number of lines using cmdline
 	else:
-		stars(5) # if cmdline parameter is missing
+		triangle_stars() # default value 5 will be used
 

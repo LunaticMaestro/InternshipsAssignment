@@ -1,6 +1,6 @@
 import sys
 
-def triangle_letters(lines):
+def triangle_letters(lines=6):
 	'''
 	lines : int: number of lines to print
 	'''
@@ -18,5 +18,5 @@ if __name__ == "__main__":
 		lines = int(sys.argv[1]) # change string to int
 		triangle_letters(lines)	# to print variale number of lines using cmdline
 	else:
-		triangle_letters(6) # if cmdline parameter is missing
+		triangle_letters() # default value 6 will be used
 
